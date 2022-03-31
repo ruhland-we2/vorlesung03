@@ -1,7 +1,7 @@
 const page_map_markup = `
 <div id="page-map" class="page">
     <div id="page-map-header">
-        <div class="title">Vorlesung02 Map</div>
+        <div class="title">Vorlesung03 Map und SCSS</div>
     </div>
     <div id="page-map-area">
         <div class="area"></div>
