@@ -4,6 +4,7 @@
     background-color: lightblue;
 
     &-header{
+        display: flex;
         position: absolute;
         left: 0;
         right: 0;
@@ -19,6 +20,14 @@
         font-size: 32px;
         padding-left: 20px;
 
+    }
+    &-header .settings{
+        background-image: url(../images/gear.svg);
+        width: 48px;
+        height: 48px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 16px 24px 0 auto;
     }
 
     &-area{
