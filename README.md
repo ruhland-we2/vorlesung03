@@ -38,3 +38,24 @@ Einbinden der Globalen Variablen und Definition in einem hierarchischen Baum
 ```
 
 Der Live Sass Compiler erstellt dann automatisch die page-map.css sowie eine map-Datei page-map.css.map. Diese bewirkt, dass der Browser im Inspektor die Zeilen der scss Datei anzeigt.
+
+## Step 4 Vendor Prefixes
+
+Vendor Prefixes sind etwas gemeines, das sind Browser spezifische Einstellungen in CSS. Z.B. gibt es diese bei `display: flex;` in CSS. SCSS löst dieses Problem beim compilieren.
+Das Ergebnis ist dann in der css-Datei
+
+```css
+#page-map-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 80px;
+  color: white;
+  background-color: darkblue;
+}
+
+```
