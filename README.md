@@ -1,6 +1,6 @@
 # Vorlesung03 Projektstruktur und Einführung von SCSS in das Projekt
 
-Das Ergebnis können Sie unter Github Page unter (https://ruhland-we2.github.io/vorlesung03/)[https://ruhland-we2.github.io/vorlesung03/] anzeigen lassen.
+Das Ergebnis können Sie unter Github Page unter [https://ruhland-we2.github.io/vorlesung03/](https://ruhland-we2.github.io/vorlesung03/) anzeigen lassen.
 
 ## Step 1 Globale Variablen
 
